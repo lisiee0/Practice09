@@ -40,8 +40,8 @@ public class GoodsApp {
 			System.out.println("모든 상품의 갯수는 "+sum+"개 입니다.");
 			sc.close();
     	}		
-			catch (ArrayIndexOutOfBoundsException e) {
-				System.out.println("유효하지 않은 명령어입니다.");
-			}  
+		catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("유효하지 않은 명령어입니다.");
+		}  
     }
 }
