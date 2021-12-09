@@ -9,7 +9,7 @@ public class GoodsApp {
     public static void main(String[] args) {
     	
     	List<Goods> gList= new ArrayList<Goods>();
-    	String info = "", name;
+    	String info, name;
     	int price, count, sum= 0;
 	
 		Scanner sc= new Scanner(System.in);
